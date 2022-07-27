@@ -27,8 +27,7 @@ public class LoginPage extends UtilClass {
 	 public void getemail() throws InterruptedException, IOException
 	 {
 		 emailfield.sendKeys(getProperty("username"));
-		
-	 }
+	}
 	 public void getpassword() throws IOException
 	 {
     password.sendKeys(getProperty("password"));
@@ -37,6 +36,7 @@ public class LoginPage extends UtilClass {
 	 public void getloginbtn() 
 	{
 	   loginbtn.click();
+	   
     }
 }
 
